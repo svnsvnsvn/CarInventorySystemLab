@@ -12,7 +12,7 @@ This project is a simple **Car Inventory Management System** built using **HTML*
 
 ### Project Structure:
 - **index.html**: The main HTML file that contains the structure of the form, inventory list, and total price display.
-- **style.css**: The CSS file that defines the night-mode theme and styles for the form, inventory, and total price sections【75†source】【76†source】.
+- **style.css**: The CSS file that defines the night-mode theme and styles for the form, inventory, and total price sections.
 - **script.js**: The JavaScript file that contains the logic for adding cars to the inventory and calculating the total price after depreciation.
 
 ---
@@ -29,7 +29,7 @@ This project is a simple **Car Inventory Management System** built using **HTML*
    - **Calculate Depreciation**: Click the "Calculate Total Price After Depreciation" button to view the total price of all cars in the inventory after depreciation.
 
 4. **Dependencies**: 
-   - The system uses **Google Fonts** for styling the font ("Racing Sans One")【75†source】【76†source】.
+   - The system uses **Google Fonts** for styling the font ("Racing Sans One").
    - No additional setup or dependencies are required; everything runs natively in the browser.
 
 ---
