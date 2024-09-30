@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
     <title>Car Inventory</title>
 </head>
+
 <body>
     <!-- Form to add cars -->
-    <form id ="carForm">
+    <form id="carForm">
         <fieldset>
             <legend>Car Information</legend>
-            <label for ="carName">Car Name</label><br>
-            <input type="text" id = "carName" required><br>
+            <label for="carName">Car Name</label><br>
+            <input type="text" id="carName" required><br>
 
-            <label for = "carModel">Car Model</label><br>
-            <input type="text" id = "carModel" required><br>
-    
-            <label for = "carYear">Car Year</label><br>
-            <input type="number" id = "carYear" min="1886" max ="2024" required><br>
-    
-            <label for = "carPrice">Car Price</label><br>
-            <input type="number" inputmode = "decimal" pattern="[0-9]*[.,]?[0-9]*" id = "carPrice" required><br>
-            
+            <label for="carModel">Car Model</label><br>
+            <input type="text" id="carModel" required><br>
+
+            <label for="carYear">Car Year</label><br>
+            <input type="number" id="carYear" min="1886" max="2024" required><br>
+
+            <label for="carPrice">Car Price</label><br>
+            <input type="number" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" id="carPrice" required><br>
+
             <button type="button" onclick="handleFormSubmit()">Add Car</button>
         </fieldset>
     </form>
@@ -39,12 +41,13 @@
     <!-- Div to display the total price after depreciation -->
     <div id="totalPrice">
         <h2>Total Price After Depreciation:</h2><br>
-        <p id = "dep_cost">$0.00</p>
+        <p class="dep_cost">$0.00</p>
 
         <!-- Button to calculate the total price -->
         <button type="button" onclick="calculateTotalPrice()">Calculate Total Price After Depreciation</button>
     </div>
 
 </body>
-<script src = "script.js"></script>
+<script src="script.js"></script>
+
 </html>

@@ -2,13 +2,11 @@
     font-family: "Racing Sans One", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
+}
 
-/* General body styling for night mode */
 body {
-    background-color: #1e1e1e; 
-    color: #f0f0f0; 
+    background-color: #1e1e1e;
+    color: #f0f0f0;
     font-family: 'Racing Sans One', sans-serif;
     margin: 0;
     padding: 20px;
@@ -19,23 +17,24 @@ body {
 
 /* Left section (Car Inventory) */
 #carInventory {
-    background-color: #2a2a2a; 
-    width: 60%; /* Take up 60% of the width */
+    background-color: #2a2a2a;
+    width: 60%;    /* Take up 60% of the width */
     padding: 20px;
     margin: 10px;
     border-radius: 8px;
     border: 2px solid #3a3a3a;
-    overflow-y: auto; /* Allow scrolling if the content exceeds */
+    overflow-y: auto;    /* Allow scrolling if the content exceeds */
+
 }
 
 #carInventory h2 {
-    color: #f0c040; /* Light yellow text color */
+    color: #f0c040;    /* Light yellow text color */
 }
 
 #carInventory div {
     padding: 10px;
     margin-bottom: 10px;
-    background-color: #333333; 
+    background-color: #333333;
     border-radius: 4px;
     border-left: 5px solid #f0c040;
 }
@@ -45,9 +44,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 35%; /* Adjust to 35% of screen */
-    height: 100%; 
-    padding-left: 20px; /* Space between the left and right containers */
+    width: 35%;    /* Adjust to 35% of screen */
+    height: 100%;
+    padding-left: 20px;    /* Space between the left and right containers */
     box-sizing: border-box;
 }
 
@@ -59,15 +58,15 @@ form {
     border-radius: 8px;
     border: 2px solid #3a3a3a;
     box-sizing: border-box;
-    flex: 0 1 65%; /* Form takes up 65% of the right container's height */
+    flex: 0 1 65%;    /* Form takes up 65% of the right container's height */
 }
 
 form fieldset {
-    border: none; 
+    border: none;
 }
 
 form legend {
-    color: #f0c040; 
+    color: #f0c040;
     font-weight: bold;
     font-size: 24px;
     margin: 19.92px 0;
@@ -75,33 +74,36 @@ form legend {
 
 form label {
     font-weight: bold;
-    color: #f0f0f0; 
+    color: #f0f0f0;
 }
 
-form input[type="text"], form input[type="number"] {
+form input[type="text"],
+form input[type="number"] {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 15px;
     border: none;
     border-radius: 4px;
-    background-color: #333333; 
-    color: #f0f0f0; 
+    background-color: #333333;
+    color: #f0f0f0;
 }
 
-form input[type="text"]::placeholder, form input[type="number"]::placeholder {
-    color: #999999; 
+form input[type="text"]::placeholder,
+form input[type="number"]::placeholder {
+    color: #999999;
 }
 
 form input:focus {
     outline: none;
-    border: 2px solid #f0c040; 
+    border: 2px solid #f0c040;
 }
 
-form button, div button {
-    background-color: #f0c040; 
+form button,
+div button {
+    background-color: #f0c040;
     font-family: 'Racing Sans One', sans-serif;
-    color: #1e1e1e; 
+    color: #1e1e1e;
     border: none;
     padding: 10px 20px;
     font-weight: bold;
@@ -111,22 +113,24 @@ form button, div button {
     transition: background-color 0.3s ease;
 }
 
-form button:hover, div button:hover {
-    background-color: #ffda68; 
+form button:hover,
+div button:hover {
+    background-color: #ffda68;
 }
 
 #totalPrice {
-    background-color: #2a2a2a; 
+    background-color: #2a2a2a;
     padding: 20px;
     margin: 10px;
     border-radius: 8px;
     border: 2px solid #3a3a3a;
     box-sizing: border-box;
-    flex: 0 1 30%; /* Total price takes up 30% of the right container's height */
+    flex: 0 1 30%;
+    /* Total price takes up 30% of the right container's height */
     color: #f0f0f0;
 }
 
-#totalPrice h2, #dep_cost {
-    color: #f0c040; 
+#totalPrice h2,
+.dep_cost {
+    color: #f0c040;
 }
-
